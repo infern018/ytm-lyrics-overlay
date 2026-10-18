@@ -4,6 +4,10 @@ A Tampermonkey userscript that adds a fullscreen, time-synced, auto-scrolling
 lyrics overlay to the YouTube Music web player (music.youtube.com) — similar
 to the lyrics experience on the YTM mobile app.
 
+> **Note:** GitHub strips new-tab behavior from links in rendered READMEs, so
+> links below will open in the same tab. Use Cmd/Ctrl+click (or middle-click)
+> to open them in a new tab instead.
+
 Lyrics are fetched from the free <a href="https://lrclib.net" target="_blank" rel="noopener">LRCLIB</a> database. Most
 tracks will have synced (line-by-line timed) lyrics; if none are found, the
 overlay falls back to plain lyrics, or shows a "not found" message.
