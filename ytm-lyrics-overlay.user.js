@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YTM Fullscreen Synced Lyrics
 // @namespace    https://github.com/infern018/ytm-lyrics-overlay
-// @version      1.0.0
+// @version      1.0.1
 // @description  Fullscreen, time-synced, auto-scrolling lyrics overlay for the YouTube Music web player
 // @author       infern018
 // @homepageURL  https://github.com/infern018/ytm-lyrics-overlay
@@ -23,7 +23,7 @@
   const LRCLIB_BASE = 'https://lrclib.net/api';
   const SCROLL_RESUME_DELAY = 1500; // ms of no manual scrolling before snapping back
   const AUTO_SCROLL_GUARD = 700; // ms to ignore scroll events caused by our own scrollIntoView
-  const SYNC_LEAD_SECONDS = 0.3; // nudge the active-line lookup slightly ahead to offset perceived lag
+  const SYNC_LEAD_SECONDS = 0; // nudge the active-line lookup slightly ahead to offset perceived lag
 
   const BASE_FONT_SIZE = 26; // px, at scale = 1
   const ACTIVE_LINE_RATIO = 38 / 26; // active line stays this much bigger than inactive
