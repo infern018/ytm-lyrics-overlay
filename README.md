@@ -16,8 +16,8 @@ overlay falls back to plain lyrics, or shows a "not found" message.
 
 1. Install the <a href="https://www.tampermonkey.net/" target="_blank" rel="noopener">Tampermonkey</a> browser
    extension (Chrome, Firefox, Edge, Safari all supported).
-2. Enable **Allow User Scripts** in Tampermonkey (required by Chrome's Manifest V3
-   policy for user script managers):
+2. **For Chrome users only:** Enable **Allow User Scripts** in Tampermonkey
+   (required by Chrome's Manifest V3 policy for user script managers):
    - Open extension settings by right-clicking the Tampermonkey icon (1) and
      selecting **Manage Extension** (2).
 
